@@ -12,5 +12,10 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2022-10-08
  */
 public interface CourseCategoryService extends IService<CourseCategory> {
-
+    /**
+     * 课程分类树形结构查询
+     *
+     * @return
+     */
+    public List<CourseCategoryTreeDto> queryTreeNodes(String id);
 }

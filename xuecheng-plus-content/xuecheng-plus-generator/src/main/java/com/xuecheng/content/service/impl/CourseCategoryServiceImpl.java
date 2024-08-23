@@ -18,6 +18,6 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 @Slf4j
 @Service
-public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper, CourseCategory> implements CourseCategoryService {
+public class CourseCategoryServiceImpl extends ServiceImpl<CourseCategoryMapper, CourseCategory>{
 
 }
