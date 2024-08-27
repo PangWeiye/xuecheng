@@ -17,5 +17,5 @@ public interface CourseCategoryService extends IService<CourseCategory> {
      *
      * @return
      */
-    public List<CourseCategoryTreeDto> queryTreeNodes(String id);
+
 }
